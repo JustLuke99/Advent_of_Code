@@ -6,7 +6,6 @@ result = 0
 last_num = 9999
 
 for num in open("input2.txt","r"):
-    #letter, num = num.split(" ")
     if int(num) > last_num:
         result += 1
     last_num = int(num)
