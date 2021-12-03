@@ -12,7 +12,7 @@ for data in open("input.txt","r"):
         depth -= int(value)
     if key == "forward": 
         hor_pos += int(value)
-print("Part 1:",abs(depth*hor_pos))
+print(f"Part 1: {abs(depth*hor_pos)}")
 
 # *************************************
 #               PART 2
@@ -30,7 +30,7 @@ for data in open("input.txt","r"):
         hor_pos += int(value)
         depth += aim * int(value)
 
-print("Part 2:",abs(depth*hor_pos))
+print(f"Part 2: {abs(depth*hor_pos)}")
 
 
 

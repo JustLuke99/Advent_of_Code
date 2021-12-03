@@ -5,12 +5,12 @@
 result = 0
 last_num = 9999
 
-for num in open("input2.txt","r"):
+for num in open("input.txt","r"):
     if int(num) > last_num:
         result += 1
     last_num = int(num)
 
-print("Part 1:",result)
+print(f"Part 1: {result}")
 
 # *************************************
 #               PART 2
@@ -33,4 +33,4 @@ for num in open("input2.txt","r"):
         last_num = vysledek
     helper += 1
 
-print("Part 2:",result) 
+print(f"Part 2: {result}") 
