@@ -31,15 +31,4 @@ for data in open("input.txt","r"):
         depth += aim * int(value)
 
 print(f"Part 2: {abs(depth*hor_pos)}")
-
-
-
-
-
-
-
-
-
-
-    
-
+ 
